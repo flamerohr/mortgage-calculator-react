@@ -1,0 +1,35 @@
+{
+	"extends": "eslint:recommended",
+	"parser": "babel-eslint",
+	"env": {
+		"browser": true,
+		"node": true
+	},
+	"plugins": [
+		"react"
+	],
+	"rules": {
+		"no-caller": 1,
+		"no-console": 0,
+		"no-else-return": 1,
+		"no-eval": 1,
+		"no-implied-eval": 1,
+		"no-labels": 1,
+		"no-multi-str": 2,
+		"no-unused-vars": 0,
+		"no-proto": 1,
+		"no-script-url": 0,
+		"no-self-compare": 2,
+		"no-useless-concat": 1,
+		"no-void": 2,
+		"no-with": 2,
+		"jsx-quotes": [1, "prefer-double"],
+		"quotes": [1, "single"],
+		"radix": [2, "always"],
+		"semi": [1, "always"],
+		"yoda": [2, "never"],
+		"react/jsx-no-undef": 1,
+		"react/jsx-uses-react": 1,
+		"react/jsx-uses-vars": 1
+	}
+}
